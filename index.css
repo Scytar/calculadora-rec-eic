@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:aliceblue;
+    font-size: 1.2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-image: url('./imgs/travaldo.jpg');
+}
+
+main{
+    background-color: #0008;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+div, form, h1{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+}
+
+div{
+    background-color: #0004;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.input{
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    width: 10rem;
+}
+
+#button{
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 2rem;
+    cursor: pointer;
+}
