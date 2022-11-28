@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Travalculadora</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>EIC - Calculadora de Recuperação Final</title>
 </head>
 <body>
     <main>
-        <h1>Travalculadora</h1>
+        <h1>Calculadora de Recuperação Final</h1>
         <form>
-            <div>
+            <!-- <div>
                 <label for="tr1">
                     Média Trimeste 1
                 </label>
@@ -40,17 +45,20 @@
                     AV3
                 </label>
                 <input class="input" id="av3" name="av3" type="number">
-            </div>
+            </div> -->
             <div>
-                <label for="av4">
-                    AV4
+                <label for="ma">
+                    Média Anual
                 </label>
-                <input class="input" id="av4" name="av4" type="number">
+                <input class="input" id="ma" name="ma" type="number">
             </div>
-            <input type="button" value="Miaucular!" id="button">
+            <input type="button" value="Calcular!" id="button">
         </form>
         <p id="result"></p>
     </main>
+    <footer>
+        <p id="copyright">Desenvolvido por Bruno R. Adami - Uso livre em ambientes ou para fins acadêmico(s)</p>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
